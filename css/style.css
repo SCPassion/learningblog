@@ -156,3 +156,7 @@ footer p {
 footer h3, footer p {
     font-size: 0.75rem;
 }
+
+.blog-link {
+    text-decoration: none;
+}
