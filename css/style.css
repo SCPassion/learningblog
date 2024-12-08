@@ -174,14 +174,12 @@ footer h3, footer p {
     margin-bottom: 3.125em;
 }
 
-.about-me h3 {
-}
-
 .aboutme-image {
     width: 48.5%;
     margin-bottom: 1.6875em;
 }
 
+/* recent-post typography */
 .recent-post {
     padding-top: 7px;
 }
@@ -189,5 +187,24 @@ footer h3, footer p {
     margin-top: 0;
     margin-bottom: 1.4423em;
     text-align: center;
+}
 
+#bootcamp-img {
+    object-position: bottom;
+}
+
+.blog-page h1 {
+    margin-bottom: 0.46875em;
+}
+
+.blog-page h2 {
+    margin-bottom: 0;
+}
+
+.blog-page h3 {
+    margin-top: 0;
+}
+
+.blog-page .inline-image {
+    margin: 35px 0;
 }
