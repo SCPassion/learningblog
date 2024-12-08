@@ -82,12 +82,16 @@ section h1 , section h2, section p {
     margin-bottom: 8px;
 }
 
-section a {
+button {
     display: block;
-    text-align: center;
+    margin: 0 auto;
     color: #000000;
+    background-color: white;
+    text-decoration: underline;
+    border: none;
     margin-bottom: 0.5em;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* container */
@@ -215,7 +219,7 @@ footer h3, footer p {
 @media (min-width: 768px) {
     body {
         width: 100%;
-        background-color: orange;
+        /* background-color: orange; */
     }
 
     .blog-section {
@@ -238,7 +242,7 @@ footer h3, footer p {
 @media (min-width: 1000px) {
     body {
         width: 100%;
-        background-color: blue;
+        /* background-color: blue; */
     }
 
     .blog-section {
