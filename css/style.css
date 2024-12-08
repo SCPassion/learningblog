@@ -219,6 +219,11 @@ footer h3, footer p {
         display: flex;
         flex-direction: row;
         gap: 1.625em; 
-        /* flex-wrap: wrap; */
+        flex-wrap: wrap;
+    }
+
+    .blog {
+        flex-basis: 25%;
+        flex-grow: 1;
     }
 }
