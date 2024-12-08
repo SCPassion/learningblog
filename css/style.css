@@ -11,8 +11,8 @@ body {
 }
 
 body {
-    max-width: 415px;
-    min-width: 414px;
+    /* max-width: 415px; */
+    /* min-width: 414px; */
     margin: 0 auto;
 }
 
@@ -207,4 +207,18 @@ footer h3, footer p {
 
 .blog-page .inline-image {
     margin: 35px 0;
+}
+
+@media (min-width: 768px) {
+    body {
+        width: 100%;
+        background-color: orange;
+    }
+
+    .blog-section {
+        display: flex;
+        flex-direction: row;
+        gap: 1.625em; 
+        /* flex-wrap: wrap; */
+    }
 }
