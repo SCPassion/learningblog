@@ -96,6 +96,10 @@ section a {
     padding: 2.125em 1.25em 2.125em 1.25em;
 }
 
+.hide {
+    display: none;
+}
+
 /* hero */
 
 .hero {
@@ -225,6 +229,10 @@ footer h3, footer p {
         flex-basis: 40%;
         flex-grow: 1;
     }
+
+    .hide {
+        display: block;
+    }
 }
 
 @media (min-width: 1000px) {
@@ -243,5 +251,9 @@ footer h3, footer p {
     .blog {
         flex-basis: 25%;
         flex-grow: 1;
+    }
+
+    .hide {
+        display: block;
     }
 }
