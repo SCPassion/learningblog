@@ -237,6 +237,18 @@ footer h3, footer p {
     .hide {
         display: block;
     }
+
+    .description-container {
+        display: flex;
+        flex-direction: row;
+        gap: 1.625em;
+    }
+
+    .description {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
 }
 
 @media (min-width: 1000px) {
