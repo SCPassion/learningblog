@@ -6,7 +6,6 @@ viewMoreBtn.addEventListener('click', ()=> {
 
 function unhideBlog() {
     const hideBlogs = [...document.getElementsByClassName('hide')]
-    console.log(hideBlogs.length)
     hideBlogs.forEach((blog)=> {
         blog.classList.remove('hide')
     })
